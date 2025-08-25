@@ -62,13 +62,13 @@ router.get('/', async (req, res) => {
 
                     const successMsg = {
                         text:
-                            `🚀 *Xdetective Session Created!*\n\n` +
+                            `🚀 *Abdullah-Md Session Created!*\n\n` +
                             `▸ *Never share* your session ID\n` +
                             `▸ Join our WhatsApp Channel\n` +
                             `▸ Report bugs on GitHub\n\n` +
-                            `_Powered by Xdetective!🔥\n\n` +
+                            `_Powered by Abdullah-Md!🔥\n\n` +
                             `🔗 *Useful Links:*\n` +
-                            `▸ GitHub: https://github.com/Xdetective9/Xdetective\n` +
+                            `▸ GitHub: https://github.com/Xdetective9/Abdullah-Md\n` +
                             `▸ https://whatsapp.com/channel/0029VbAmCGa0AgW9oyj1PT1V`,
                         contextInfo: {
                             mentionedJid: [sock.user.id],
@@ -76,7 +76,7 @@ router.get('/', async (req, res) => {
                             isForwarded: true,
                             forwardedNewsletterMessageInfo: {
                                 newsletterJid: "120363403045101413@newsletter",
-                                newsletterName: "Memories",
+                                newsletterName: "Abdullah-Md",
                                 serverMessageId: 143
                             }
                         }
